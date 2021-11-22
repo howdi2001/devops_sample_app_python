@@ -14,9 +14,9 @@ pipeline {
     string(name : 'DOCKER_TAG', defaultValue : '1.0.0', description : 'DOCKER_TAG')
 
     // CD
-    string(name : 'TARGET_SVR_USER', defaultValue : 'root', description : 'TARGET_SVR_USER')
+    string(name : 'TARGET_SVR_USER', defaultValue : 'ec2-user', description : 'TARGET_SVR_USER')
     string(name : 'TARGET_SVR_PATH', defaultValue : '/home/ec2-user/', description : 'TARGET_SVR_PATH')
-    string(name : 'TARGET_SVR', defaultValue : '13.124.184.232', description : 'TARGET_SVR')
+    string(name : 'TARGET_SVR', defaultValue : '15.164.250.2', description : 'TARGET_SVR')
   }
 
   environment {
